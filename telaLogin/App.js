@@ -15,7 +15,7 @@ export default function App() {
       <TextInput placeholder='Digite seu email' style={styles.input} ></TextInput>
 
       <Text style={styles.labelInput} TextInput>Senha</Text>
-      <TextInput placeholder='Digite sua senha' style={styles.input}></TextInput>
+      <TextInput placeholder='Digite sua senha' style={styles.input} secureTextEntry={true}></TextInput>
 
       <Button title='Entrar' color='midnightblue' onPress={() => Alert.alert('Seja bem vindo!!!')}></Button>
 
@@ -51,8 +51,8 @@ const styles = StyleSheet.create({
     marginTop: 10
   },
   logo: {
-    width: 150,
-    height: 125,
+    width: 160,
+    height: 250,
     margin: 30
   },
 
