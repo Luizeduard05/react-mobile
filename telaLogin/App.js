@@ -1,3 +1,4 @@
+//atv01
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image, TextInput, Button, Alert } from 'react-native';
 
@@ -11,7 +12,7 @@ export default function App() {
 
       <Image source={logo} style={styles.logo}></Image>
 
-      <Text style={styles.labelInput}>Email</Text>
+      <Text style={styles.labelInput} name='email'>Email</Text>
       <TextInput placeholder='Digite seu email' style={styles.input} ></TextInput>
 
       <Text style={styles.labelInput} TextInput>Senha</Text>
